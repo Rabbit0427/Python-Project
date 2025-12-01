@@ -24,11 +24,7 @@ def generate_strong_password(length=12):
 
     password_list.append(random.choice(punctuation))
 
-
-
     all_characters = lowercase + uppercase + digits + punctuation
-
-
 
     if length > 4:
         for i in range(length):
